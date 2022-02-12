@@ -1,0 +1,16 @@
+@media (max-width: 480px){
+    #dedo{
+        width: 30vw;
+        height: auto;
+    }
+    #logo{
+        padding-top: 10vh;
+    }
+    .marcas{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    .no{
+        display: none;
+    }
+}

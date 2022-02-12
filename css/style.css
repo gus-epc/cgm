@@ -1,0 +1,43 @@
+body {
+  background-color: black;
+  color: #fafafa; }
+
+h2 {
+  font-size: 5vw;
+  text-align: center;
+  padding: 5vw; }
+
+.touch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center; }
+
+#logo {
+  padding-top: 10vw; }
+
+#dedo {
+  width: 30vw;
+  padding: 3vw; }
+
+.marca {
+  width: 30vw;
+  padding: 5vw; }
+
+@media (max-width: 480px) {
+  #dedo {
+    width: 30vw;
+    height: auto; }
+  #logo {
+    padding-top: 10vh; }
+  .marcas {
+    display: grid;
+    grid-template-columns: 2fr 1fr; }
+  .no {
+    display: none; } }
+
+#marcas {
+  padding-top: 3vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center; }
