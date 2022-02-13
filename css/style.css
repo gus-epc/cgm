@@ -7,11 +7,34 @@ h2 {
   text-align: center;
   padding: 5vw; }
 
+h4 {
+  text-align: center;
+  font-size: 4vw; }
+
 .touch {
   display: flex;
   justify-content: center;
   align-items: center;
   align-content: center; }
+
+a {
+  text-decoration: none;
+  color: #fafafa; }
+  a:hover {
+    color: #fafafa; }
+
+.m {
+  display: flex;
+  flex-direction: column; }
+  .m:hover {
+    transform: scale(1.008); }
+
+.a {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .a img, .a h4 {
+    padding: 3vw; }
 
 #logo {
   padding-top: 10vw; }
@@ -24,20 +47,33 @@ h2 {
   width: 30vw;
   padding: 5vw; }
 
-@media (max-width: 480px) {
+#accesorios {
+  height: 80vh; }
+
+#acc {
+  padding-top: 5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+#marcas {
+  padding-top: 3vw;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center; }
+
+@media (max-width: 680px) {
   #dedo {
     width: 30vw;
     height: auto; }
   #logo {
     padding-top: 10vh; }
-  .marcas {
+  #marcas {
+    padding-top: 3vw;
     display: grid;
-    grid-template-columns: 2fr 1fr; }
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center; }
   .no {
-    display: none; } }
-
-#marcas {
-  padding-top: 3vw;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  justify-items: center; }
+    display: none; }
+  #accesorios {
+    height: 50vh; } }

@@ -7,9 +7,37 @@ h2{
     text-align: center;
     padding: 5vw;
 }
+h4{
+    text-align: center;
+    font-size: 4vw;
+}
 .touch{
     display: flex;
     justify-content: center;
     align-items: center;
     align-content: center;
+}
+a{
+    text-decoration: none;
+    color: rgb(250, 250, 250);
+    &:hover{
+        color: rgb(250, 250, 250);
+    }
+}
+.m{
+    display: flex;
+    flex-direction: column;
+    &:hover{
+        transform: scale(1.008);
+    }
+}
+.a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img, h4{
+        padding: 3vw;
+    }
+
+    
 }

@@ -1,6 +1,13 @@
+
+#acc{
+    padding-top: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 #marcas{
     padding-top: 3vw;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr); 
     justify-items: center;
 }

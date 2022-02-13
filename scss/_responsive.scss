@@ -1,4 +1,4 @@
-@media (max-width: 480px){
+@media (max-width: 680px){
     #dedo{
         width: 30vw;
         height: auto;
@@ -6,11 +6,16 @@
     #logo{
         padding-top: 10vh;
     }
-    .marcas{
+    #marcas{
+        padding-top: 3vw;
         display: grid;
-        grid-template-columns: 2fr 1fr;
+        grid-template-columns: repeat(2, 1fr); 
+        justify-items: center;
     }
     .no{
         display: none;
+    }
+    #accesorios{
+        height: 50vh;
     }
 }
