@@ -1,15 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
 body {
   background-color: black;
-  color: #fafafa; }
+  color: #fafafa;
+  font-family: 'Lora', serif; }
 
 h2 {
   font-size: 5vw;
   text-align: center;
   padding: 5vw; }
 
+h3 {
+  font-size: 8vw;
+  text-align: center;
+  padding: 5vw; }
+
 h4 {
   text-align: center;
   font-size: 4vw; }
+
+h5 {
+  text-align: center;
+  font-size: 2vw;
+  font-family: 'Lora', serif; }
 
 .touch {
   display: flex;
@@ -62,7 +74,17 @@ a {
   grid-template-columns: repeat(3, 1fr);
   justify-items: center; }
 
+#hannabach {
+  padding-top: 3vw;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center; }
+
 @media (max-width: 680px) {
+  h5 {
+    text-align: center;
+    font-size: 4vw;
+    font-family: 'Lora', serif; }
   #dedo {
     width: 30vw;
     height: auto; }
@@ -73,6 +95,14 @@ a {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-items: center; }
+  #hannabach {
+    padding: 1vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center; }
+  .marca {
+    width: 40vw;
+    padding: 5vw; }
   .no {
     display: none; }
   #accesorios {
